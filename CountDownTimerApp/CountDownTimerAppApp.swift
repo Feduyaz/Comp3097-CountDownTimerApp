@@ -2,31 +2,22 @@
 //  CountDownTimerAppApp.swift
 //  CountDownTimerApp
 //
-//  Created by Suher Nurhusien on 2025-03-16.
+//  Created by Ferdos Nurhusien on 2025-03-16.
 //
 
 import SwiftUI
-import SwiftData
+import UserNotifications
 
 @main
-struct CountDownTimerAppApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+struct CountdownTimerApp: App {
+    init() {
+        // Request notification permission on app launch
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { _, _ in }
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
-        .modelContainer(sharedModelContainer)
     }
 }

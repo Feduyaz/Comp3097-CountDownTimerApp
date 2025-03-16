@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9BB045672D869960002976A0 /* CountDownTimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDownTimerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB045672D869960002976A0 /* CountDownTimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CountDownTimerApp.app; path = "/Users/suhernurhusien/Desktop/CountDownTimerApp/build/Debug-iphoneos/CountDownTimerApp.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				9BB045692D869960002976A0 /* CountDownTimerApp */,
-				9BB045682D869960002976A0 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		9BB045682D869960002976A0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9BB045672D869960002976A0 /* CountDownTimerApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +86,7 @@
 			mainGroup = 9BB0455E2D869960002976A0;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 9BB045682D869960002976A0 /* Products */;
+			productRefGroup = 9BB0455E2D869960002976A0;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
