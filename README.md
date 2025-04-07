@@ -20,7 +20,7 @@ A simple and elegant iOS application that allows users to set, start, pause, and
 
 - **Kate Labis**  
   Student ID: `101413112`  
-  Added internal documentation and improved error handling in notification setup.
+  Added internal documentation and improved error handling in notification setup. Modified the UI Implementation to make it more user-friendly.
 
 ## 🏗️ Architecture
 
